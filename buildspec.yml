@@ -15,7 +15,7 @@ phases:
       - npm test
   build:
     commands:
-      - docker build -t andrewbestbier/ci-comparison-blog .
+      - docker build -t vitorcradi/ci-comparison-blog .
   post_build:
     commands:
-      - docker push andrewbestbier/ci-comparison-blog
+      - docker push vitorcradi/ci-comparison-blog
